@@ -5,16 +5,13 @@ require 'db2oo/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "db2oo"
-  spec.version       = Db2oo::VERSION
+  spec.version       = DB2OO::VERSION
   spec.authors       = ["windwiny"]
   spec.email         = ["windwiny.ubt@gmail.com"]
 
-  spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com' to prevent pushes to rubygems.org, or delete to allow pushes to any server."
-  spec.required_rubygems_version = ">= 2.0"
-
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{ibm db2 object origin}
+  spec.description   = %q{ibm db2}
+  spec.homepage      = "https://github.com/windwiny/db2oo"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -25,4 +22,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec"
+
+  spec.add_dependency "ibm_db", "~> 2.5"
+
 end

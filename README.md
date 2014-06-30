@@ -1,6 +1,6 @@
-# Db2oo
+# DB2OO
 
-TODO: Write a gem description
+IBM DB2 object origin class
 
 ## Installation
 
