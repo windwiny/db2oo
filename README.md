@@ -1,6 +1,6 @@
 # DB2OO
 
-IBM DB2 object origin class
+IBM DB2 object oriented class
 
 ## Installation
 

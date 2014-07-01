@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["windwiny"]
   spec.email         = ["windwiny.ubt@gmail.com"]
 
-  spec.summary       = %q{ibm db2 object origin}
-  spec.description   = %q{ibm db2}
+  spec.summary       = %q{ibm db2 object oriented class}
+  spec.description   = %q{ibm db2 object oriented class}
   spec.homepage      = "https://github.com/windwiny/db2oo"
   spec.license       = "MIT"
 
